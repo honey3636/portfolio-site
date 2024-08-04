@@ -1,9 +1,10 @@
 <template>
     <navBar />
+    <MoviesPage/>
 
     <!-- banner -->
-    <div class="container-fluid content">
-        <div class="row bg-warning py-4 justify-content-center ">
+    <div class="container-fluid content ">
+        <div class="row bg-warning py-4 justify-content-center gap ">
             <div class="col-md-6 col-11 px-4 gap-3 d-flex flex-column justify-content-center text-white ">
                 <h1 class="d-block">First i Wanted to be a engineer</h1>
                 <p class="d-block">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit consectetur
@@ -95,7 +96,8 @@
                 </div>
             </div>
         </div>
-
+        
+        
         <!-- footer -->
 
         <div class="row py-5 footer1  text-white   justify-content-center align-items-">
@@ -145,10 +147,12 @@
 <!-- script section -->
 <script>
 import navBar from './navBar.vue';
+import MoviesPage from './MoviesPage.vue';
 export default {
     name: "HomePage",
     components: {
         navBar,
+        MoviesPage,
     },
 }
 </script>

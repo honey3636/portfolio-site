@@ -14,6 +14,9 @@ export default {
 </script>
 
 <style>
+*{
+  background-color: #1b1919;
+}
 /*custom scrollbar */
 
 ::-webkit-scrollbar {
